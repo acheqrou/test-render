@@ -19,7 +19,7 @@ public class UsersController {
 
     @GetMapping("/hello")
     public String helllo(){
-        return "/users/login";
+        return "hello";
     }
 
 }
